@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'mandatory-plaything-Regular';
+    src: url('mandatory-plaything-Regular.eot');
+    src: url('mandatory-plaything-Regular.eot?#') format('embedded-opentype'), url('mandatory-plaything-Regular.woff') format('woff'), url('mandatory-plaything-Regular.ttf') format('truetype');
+}
+
+#landing{
+    width:100%;
+    
+min-height: 100vh;
+}
+body{
+    margin: 0;
+overflow: none;
+max-height: 100vh;
+}
+
+
+.landingContent{
+    width:45%;
+    margin-left:8%;
+    display: inline-block;
+    position: relative;
+    top:40vh;
+    z-index: 1;
+}
+
+*{
+    
+    font-family: 'mandatory-plaything-Regular';
+}
+.landingContent>h1{
+    font-size: 30pt;
+}
+button{
+    padding:1.5vw 2.5vw 1.5vw 2.5vw;
+    outline:none;
+    border:2px solid orange;
+    background-color: transparent;
+    font-size:20pt;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 4px 4px 6px rgba(255,255,255,0.5);
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 1350px) {
+  .landingContent{
+      width: 100vw;
+      text-align: center;
+      margin: 0;
+  }
+  h1{
+    font-size: 50pt;
+  }
+
+  }
